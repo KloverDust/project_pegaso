@@ -4,6 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 import joblib
+import os
 
 class DepartmentClassifier:
     def __init__(self, model_type='logistic'):

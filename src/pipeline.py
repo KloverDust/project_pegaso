@@ -43,13 +43,13 @@ def prepara_dati(df):
     print(f"{len(testi_puliti)} testi preprocessati")
     
     # Estrai labels
-    y_department = df['department'].values
-    y_sentiment = df['sentiment'].values
+    y_department = df['department'].tolist()
+    y_sentiment = df['sentiment'].tolist()
     
     # Train/test split
     # Usiamo lo stesso split per entrambi i task per consistency
     X_train_text, X_test_text, y_dept_train, y_dept_test, y_sent_train, y_sent_test, idx_train, idx_test = train_test_split(
-        testi_puliti, y_department, y_sentiment, df.index,
+        testi_puliti.tolist(), y_department, y_sentiment, df.index.tolist(),
         test_size=TEST_SIZE, 
         random_state=RANDOM_STATE,
         stratify=y_department  # Stratify per bilanciamento reparti
