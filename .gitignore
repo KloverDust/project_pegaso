@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Models (riproducibili tramite training)
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Dati generati (riproducibili)
+data/generated/
+data/predictions/
+
+# Outputs
+outputs/
+
+# Documentazione
+docs/
