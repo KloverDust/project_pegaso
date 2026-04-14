@@ -47,6 +47,7 @@ Questo comando:
 ### 4. Lancia Dashboard
 
 ```bash
+cd ..
 streamlit run app.py
 ```
 
@@ -197,12 +198,11 @@ streamlit run app.py --server.port 8502
 ```
 
 ## Autori
-
+Creatore: Oleksandr Chumak
 Project Work - Corso di Laurea L-31  
 Tema: Machine Learning per Processi Aziendali  
 Anno: 2026
 
 ## Licenza
 
-Progetto didattico - Tutti i diritti riservati
-# project_pegaso
+Progetto didattico - Tutti i diritti riservatigit 
