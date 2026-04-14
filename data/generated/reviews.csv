@@ -1,0 +1,401 @@
+id,title,body,department,sentiment
+REV_0001,Colazione scarsa,"cucina molto fredda, scelta al menu povera.",F&B,negative
+REV_0002,Ordine e pulizia,"Personale delle pulizie eccellente, igiene sempre fresca.",Housekeeping,positive
+REV_0003,Reception pessima,"Errori nella prenotazione, reception inefficiente e arrogante.",Reception,negative
+REV_0004,Stanza trascurata,"lenzuola con macchie, bagno macchiata, molto deluso.",Housekeeping,negative
+REV_0005,Personale scortese,"check-in molto maleducato, problemi con la personale.",Reception,negative
+REV_0006,Ristorante deludente,"La cucina era limitata, menu scarsa e poco invitante.",F&B,negative
+REV_0007,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0008,Stanza trascurata,"Standard igienico bassissimo, camera sporca.",Housekeeping,negative
+REV_0009,Ristorante deludente,"cucina pessima, il cucina era limitata.",F&B,negative
+REV_0010,Reception pessima,"receptionist molto scortese, problemi con la pagamento.",Reception,negative
+REV_0011,Buffet ricchissimo,"cibo deliziosa, il ristorante era deliziosa.",F&B,positive
+REV_0012,Check-in velocissimo,"Complimenti al check-in, sempre efficiente e disponibile.",Reception,positive
+REV_0013,Colazione scarsa,"Deluso dalla menu, tutto povera e fredda.",F&B,negative
+REV_0014,Cucina ottima,"colazione fresca, buffet veramente ottima.",F&B,positive
+REV_0015,Camera impeccabile,"ordine splendida e bagno pulitissima, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0016,Reception pessima,"Il pagamento è stato disorganizzato, check-out gestito malissimo.",Reception,negative
+REV_0017,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0018,Reception cordiale,"check-in cortese, ottima esperienza al momento del personale.",Reception,positive
+REV_0019,Camera sporca,"Standard igienico bassissimo, asciugamani trascurata.",Housekeeping,negative
+REV_0020,Personale eccellente,"Il reception è stato veloce, reception gestito in modo veloce.",Reception,positive
+REV_0021,Cucina ottima,"cucina deliziosa, il buffet era buonissima.",F&B,positive
+REV_0022,Potrebbe migliorare,Colazione buona ma lenzuola macchiate e reception disorganizzata,F&B,negative
+REV_0023,Cibo delizioso,"buffet molto deliziosa, ampia scelta al ristorante.",F&B,positive
+REV_0024,Ristorante eccellente,"La buffet era deliziosa, menu eccellente e di qualità.",F&B,positive
+REV_0025,Pulizia pessima,"Pulizia inesistente, bagno completamente mal tenuta.",Housekeeping,negative
+REV_0026,Pulizia pessima,"camera con macchie, asciugamani puzzolente, molto deluso.",Housekeeping,negative
+REV_0027,Buffet ricchissimo,"La cibo era abbondante, caffè abbondante e di qualità.",F&B,positive
+REV_0028,Buffet ricchissimo,"Complimenti per la caffè, tutto abbondante e buonissima.",F&B,positive
+REV_0029,Servizio disorganizzato,"personale scortese, attesa interminabile per il check-out.",Reception,negative
+REV_0030,Cucina scadente,"buffet fredda, il caffè era scadente.",F&B,negative
+REV_0031,Cucina scadente,"La colazione era scadente, menu scadente e poco invitante.",F&B,negative
+REV_0032,Igiene eccellente,"La camera era profumata, bagno splendida e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0033,Ordine e pulizia,"pulizia impeccabile e bagno pulita, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0034,Staff maleducato,"reception scortese, attesa interminabile per il personale.",Reception,negative
+REV_0035,Buffet limitato,"menu scarsa, il cucina era povera.",F&B,negative
+REV_0036,Cucina scadente,"menu di qualità fredda, menu pessima.",F&B,negative
+REV_0037,Buffet limitato,"Deluso dalla cucina, tutto limitata e pessima.",F&B,negative
+REV_0038,Stanza pulitissima,"asciugamani profumata, asciugamani profumate, tutto perfetto.",Housekeeping,positive
+REV_0039,Reception cordiale,"staff veloce, procedura di personale molto rapida.",Reception,positive
+REV_0040,Servizio disorganizzato,"pagamento completamente arrogante, esperienza negativa.",Reception,negative
+REV_0041,Ristorante eccellente,"Complimenti per la ristorante, tutto ottima e varia.",F&B,positive
+REV_0042,Pulizia pessima,"lenzuola sporca e bagno trascurata, non accettabile.",Housekeeping,negative
+REV_0043,Reception cordiale,"receptionist disponibile, procedura di receptionist molto rapida.",Reception,positive
+REV_0044,Colazione scarsa,"La menu era scarsa, cibo limitata e poco invitante.",F&B,negative
+REV_0045,Colazione fantastica,"cibo molto fresca, ampia scelta al caffè.",F&B,positive
+REV_0046,Staff maleducato,"Il receptionist è stato maleducato, reception gestito malissimo.",Reception,negative
+REV_0047,Servizio impeccabile,"staff veloce, procedura di reception molto rapida.",Reception,positive
+REV_0048,Disordine ovunque,"Pulizia inesistente, camera completamente macchiata.",Housekeeping,negative
+REV_0049,Staff professionale,"Complimenti al receptionist, sempre cortese e efficiente.",Reception,positive
+REV_0050,Igiene scarsa,"La camera era disordinata, pavimento vecchia e un odore sgradevole.",Housekeeping,negative
+REV_0051,Staff professionale,"staff cortese, ottima esperienza al momento del reception.",Reception,positive
+REV_0052,Ristorante deludente,"cucina scadente, il buffet era limitata.",F&B,negative
+REV_0053,Cibo delizioso,"Complimenti per la cucina, tutto abbondante e abbondante.",F&B,positive
+REV_0054,Stanza trascurata,"bagno con macchie, tappeto trascurata, molto deluso.",Housekeeping,negative
+REV_0055,Personale eccellente,"Il reception è stato veloce, reception gestito in modo professionale.",Reception,positive
+REV_0056,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0057,Ristorante deludente,"cucina scadente, il cucina era scarsa.",F&B,negative
+REV_0058,Cibo pessimo,"La caffè era pessima, colazione limitata e poco invitante.",F&B,negative
+REV_0059,Stanza trascurata,"Pulizia inesistente, bagno completamente sporca.",Housekeeping,negative
+REV_0060,Personale scortese,"Il check-in è stato incompetente, receptionist gestito malissimo.",Reception,negative
+REV_0061,Cucina scadente,"Deluso dalla menu, tutto cattiva e scadente.",F&B,negative
+REV_0062,Cibo delizioso,"La colazione era ottima, cibo deliziosa e di qualità.",F&B,positive
+REV_0063,Cucina ottima,"La colazione era varia, colazione deliziosa e di qualità.",F&B,positive
+REV_0064,Colazione fantastica,"buffet molto abbondante, ampia scelta al caffè.",F&B,positive
+REV_0065,Ordine e pulizia,"ordine profumata e ordine splendida, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0066,Camera sporca,"pavimento trascurata e camera puzzolente, non accettabile.",Housekeeping,negative
+REV_0067,Personale eccellente,"personale cortese, procedura di check-in molto rapida.",Reception,positive
+REV_0068,Ristorante eccellente,"cibo abbondante, buffet veramente deliziosa.",F&B,positive
+REV_0069,Servizio impeccabile,"Il servizio è stato professionale, servizio gestito in modo cortese.",Reception,positive
+REV_0070,Cibo pessimo,"La buffet era scadente, colazione pessima e poco invitante.",F&B,negative
+REV_0071,Reception cordiale,"staff efficiente, procedura di check-out molto rapida.",Reception,positive
+REV_0072,Servizio impeccabile,"Il personale è stato efficiente, servizio gestito in modo professionale.",Reception,positive
+REV_0073,Buffet limitato,"La menu era scadente, menu pessima e poco invitante.",F&B,negative
+REV_0074,Servizio impeccabile,"Il check-in è stato disponibile, staff gestito in modo cordiale.",Reception,positive
+REV_0075,Buffet limitato,"ristorante molto povera, scelta al caffè limitata.",F&B,negative
+REV_0076,Igiene scarsa,"Standard igienico bassissimo, pavimento mal tenuta.",Housekeeping,negative
+REV_0077,Cucina scadente,"Deluso dalla ristorante, tutto scarsa e cattiva.",F&B,negative
+REV_0078,Cibo delizioso,"La menu era varia, cucina fresca e di qualità.",F&B,positive
+REV_0079,Colazione fantastica,"ristorante buonissima, il cucina era varia.",F&B,positive
+REV_0080,Camera impeccabile,"La camera era pulita, camera impeccabile e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0081,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0082,Servizio disorganizzato,"pagamento molto lento, problemi con la check-out.",Reception,negative
+REV_0083,Ristorante deludente,"Deluso dalla ristorante, tutto povera e scadente.",F&B,negative
+REV_0084,Esperienza mista,"Ottima colazione e camera ordinata, peccato per il check-out lento",F&B,positive
+REV_0085,Personale eccellente,"reception veloce, ottima esperienza al momento del servizio.",Reception,positive
+REV_0086,Cucina scadente,"menu di qualità povera, colazione pessima.",F&B,negative
+REV_0087,Cibo pessimo,"buffet pessima, il ristorante era cattiva.",F&B,negative
+REV_0088,Staff professionale,"check-in efficiente, ottima esperienza al momento del personale.",Reception,positive
+REV_0089,Personale scortese,"Il check-in è stato scortese, pagamento gestito malissimo.",Reception,negative
+REV_0090,Disordine ovunque,"tappeto puzzolente e lenzuola puzzolente, non accettabile.",Housekeeping,negative
+REV_0091,Personale scortese,"receptionist incompetente, attesa interminabile per il receptionist.",Reception,negative
+REV_0092,Disordine ovunque,"Standard igienico bassissimo, pavimento sporca.",Housekeeping,negative
+REV_0093,Igiene scarsa,"pavimento con macchie, camera puzzolente, molto deluso.",Housekeeping,negative
+REV_0094,Check-in lentissimo,"personale incompetente, attesa interminabile per il reception.",Reception,negative
+REV_0095,Stanza trascurata,"Pulizia inesistente, bagno completamente puzzolente.",Housekeeping,negative
+REV_0096,Cibo pessimo,"colazione di qualità pessima, buffet scadente.",F&B,negative
+REV_0097,Camera impeccabile,"pulizia pulitissima e asciugamani pulitissima, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0098,Disordine ovunque,"bagno trascurata e bagno mal tenuta, non accettabile.",Housekeeping,negative
+REV_0099,Personale scortese,"personale inefficiente, attesa interminabile per il receptionist.",Reception,negative
+REV_0100,Stanza trascurata,"asciugamani macchiata e asciugamani vecchia, non accettabile.",Housekeeping,negative
+REV_0101,Reception pessima,"check-out disorganizzato, attesa interminabile per il prenotazione.",Reception,negative
+REV_0102,Check-in velocissimo,"Complimenti al servizio, sempre cordiale e professionale.",Reception,positive
+REV_0103,Colazione fantastica,"menu deliziosa, il cucina era eccellente.",F&B,positive
+REV_0104,Camera impeccabile,"asciugamani fresca e camera pulita, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0105,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0106,Cibo pessimo,"caffè molto pessima, scelta al caffè scadente.",F&B,negative
+REV_0107,Personale scortese,"personale inefficiente, attesa interminabile per il personale.",Reception,negative
+REV_0108,Servizio disorganizzato,"reception molto maleducato, problemi con la prenotazione.",Reception,negative
+REV_0109,Buffet ricchissimo,"colazione molto fresca, ampia scelta al buffet.",F&B,positive
+REV_0110,Reception cordiale,"servizio professionale, ottima esperienza al momento del check-in.",Reception,positive
+REV_0111,Buffet ricchissimo,"Complimenti per la colazione, tutto fresca e ottima.",F&B,positive
+REV_0112,Personale scortese,"pagamento arrogante, attesa interminabile per il personale.",Reception,negative
+REV_0113,Igiene scarsa,"bagno macchiata e lenzuola disordinata, non accettabile.",Housekeeping,negative
+REV_0114,Cibo pessimo,"Deluso dalla menu, tutto povera e fredda.",F&B,negative
+REV_0115,Igiene scarsa,"bagno vecchia e tappeto vecchia, non accettabile.",Housekeeping,negative
+REV_0116,Ristorante eccellente,"Complimenti per la caffè, tutto ottima e buonissima.",F&B,positive
+REV_0117,Personale scortese,"Il prenotazione è stato incompetente, check-out gestito malissimo.",Reception,negative
+REV_0118,Check-in lentissimo,"Errori nella check-in, reception inefficiente e scortese.",Reception,negative
+REV_0119,Cucina scadente,"cucina di qualità fredda, ristorante povera.",F&B,negative
+REV_0120,Stanza pulitissima,"La camera era fresca, bagno fresca e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0121,Colazione scarsa,"Deluso dalla caffè, tutto limitata e scarsa.",F&B,negative
+REV_0122,Cibo delizioso,"buffet eccellente, il cibo era abbondante.",F&B,positive
+REV_0123,Camera sporca,"Standard igienico bassissimo, bagno puzzolente.",Housekeeping,negative
+REV_0124,Ristorante eccellente,"Complimenti per la cucina, tutto fresca e varia.",F&B,positive
+REV_0125,Stanza pulitissima,"pulizia impeccabile, asciugamani profumate, tutto perfetto.",Housekeeping,positive
+REV_0126,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0127,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0128,Camera impeccabile,"asciugamani impeccabile, camera profumate, tutto perfetto.",Housekeeping,positive
+REV_0129,Check-in lentissimo,"receptionist molto lento, problemi con la personale.",Reception,negative
+REV_0130,Ordine e pulizia,"La camera era pulita, lenzuola fresca e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0131,Camera impeccabile,"Non ho mai visto una igiene così pulitissima, complimenti!",Housekeeping,positive
+REV_0132,Staff maleducato,"pagamento completamente scortese, esperienza negativa.",Reception,negative
+REV_0133,Cibo delizioso,"La caffè era ottima, ristorante abbondante e di qualità.",F&B,positive
+REV_0134,Servizio impeccabile,"check-out gentile, ottima esperienza al momento del personale.",Reception,positive
+REV_0135,Staff professionale,"Complimenti al reception, sempre professionale e gentile.",Reception,positive
+REV_0136,Buffet limitato,"La colazione era scadente, cibo cattiva e poco invitante.",F&B,negative
+REV_0137,Personale eccellente,"servizio molto cortese, hanno risolto ogni problema con efficiente.",Reception,positive
+REV_0138,Disordine ovunque,"Pulizia inesistente, asciugamani completamente disordinata.",Housekeeping,negative
+REV_0139,Colazione scarsa,"buffet di qualità povera, cucina povera.",F&B,negative
+REV_0140,Servizio impeccabile,"check-in cordiale, procedura di check-out molto rapida.",Reception,positive
+REV_0141,Check-in velocissimo,"Complimenti al receptionist, sempre efficiente e professionale.",Reception,positive
+REV_0142,Pulizia perfetta,"La camera era fresca, camera profumata e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0143,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0144,Pulizia perfetta,"Non ho mai visto una camera così profumata, complimenti!",Housekeeping,positive
+REV_0145,Staff professionale,"staff gentile, procedura di staff molto rapida.",Reception,positive
+REV_0146,Colazione fantastica,"colazione molto buonissima, ampia scelta al cibo.",F&B,positive
+REV_0147,Cibo delizioso,"buffet molto abbondante, ampia scelta al caffè.",F&B,positive
+REV_0148,Servizio disorganizzato,"Errori nella check-in, check-out maleducato e arrogante.",Reception,negative
+REV_0149,Personale scortese,"prenotazione molto scortese, problemi con la reception.",Reception,negative
+REV_0150,Igiene eccellente,"Non ho mai visto una asciugamani così pulita, complimenti!",Housekeeping,positive
+REV_0151,Reception cordiale,"reception efficiente, ottima esperienza al momento del reception.",Reception,positive
+REV_0152,Igiene scarsa,"Pulizia inesistente, pavimento completamente puzzolente.",Housekeeping,negative
+REV_0153,Reception cordiale,"Complimenti al personale, sempre cortese e veloce.",Reception,positive
+REV_0154,Cibo delizioso,"cibo molto ottima, ampia scelta al cibo.",F&B,positive
+REV_0155,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0156,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0157,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0158,Reception pessima,"reception lento, attesa interminabile per il prenotazione.",Reception,negative
+REV_0159,Camera sporca,"La camera era macchiata, lenzuola macchiata e un odore sgradevole.",Housekeeping,negative
+REV_0160,Check-in velocissimo,"Il receptionist è stato efficiente, personale gestito in modo cordiale.",Reception,positive
+REV_0161,Personale scortese,"receptionist completamente scortese, esperienza negativa.",Reception,negative
+REV_0162,Potrebbe migliorare,Colazione buona ma lenzuola macchiate e reception disorganizzata,F&B,negative
+REV_0163,Cucina scadente,"cucina di qualità povera, caffè scadente.",F&B,negative
+REV_0164,Buffet ricchissimo,"Complimenti per la buffet, tutto buonissima e buonissima.",F&B,positive
+REV_0165,Stanza pulitissima,"bagno splendida e camera fresca, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0166,Cucina scadente,"Deluso dalla caffè, tutto pessima e limitata.",F&B,negative
+REV_0167,Disordine ovunque,"lenzuola macchiata e asciugamani trascurata, non accettabile.",Housekeeping,negative
+REV_0168,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0169,Cibo delizioso,"caffè molto fresca, ampia scelta al buffet.",F&B,positive
+REV_0170,Buffet limitato,"Deluso dalla buffet, tutto scarsa e pessima.",F&B,negative
+REV_0171,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0172,Ristorante deludente,"cibo molto limitata, scelta al menu limitata.",F&B,negative
+REV_0173,Camera impeccabile,"ordine pulita e ordine splendida, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0174,Ristorante eccellente,"buffet molto buonissima, ampia scelta al menu.",F&B,positive
+REV_0175,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0176,Check-in velocissimo,"staff disponibile, ottima esperienza al momento del staff.",Reception,positive
+REV_0177,Personale eccellente,"Complimenti al personale, sempre veloce e cordiale.",Reception,positive
+REV_0178,Disordine ovunque,"Standard igienico bassissimo, tappeto disordinata.",Housekeeping,negative
+REV_0179,Colazione fantastica,"ristorante eccellente, buffet veramente eccellente.",F&B,positive
+REV_0180,Buffet ricchissimo,"cibo molto ottima, ampia scelta al buffet.",F&B,positive
+REV_0181,Buffet ricchissimo,"La colazione era buonissima, cibo ottima e di qualità.",F&B,positive
+REV_0182,Camera impeccabile,"Personale delle pulizie eccellente, ordine sempre splendida.",Housekeeping,positive
+REV_0183,Ordine e pulizia,"Non ho mai visto una camera così impeccabile, complimenti!",Housekeeping,positive
+REV_0184,Camera impeccabile,"La camera era profumata, bagno splendida e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0185,Personale scortese,"personale molto maleducato, problemi con la receptionist.",Reception,negative
+REV_0186,Colazione fantastica,"La caffè era deliziosa, colazione varia e di qualità.",F&B,positive
+REV_0187,Ordine e pulizia,"Personale delle pulizie eccellente, camera sempre impeccabile.",Housekeeping,positive
+REV_0188,Pulizia pessima,"asciugamani trascurata e lenzuola disordinata, non accettabile.",Housekeeping,negative
+REV_0189,Ordine e pulizia,"pulizia splendida, bagno profumate, tutto perfetto.",Housekeeping,positive
+REV_0190,Igiene scarsa,"lenzuola macchiata e asciugamani vecchia, non accettabile.",Housekeeping,negative
+REV_0191,Cibo pessimo,"ristorante scadente, il cibo era limitata.",F&B,negative
+REV_0192,Colazione scarsa,"colazione fredda, il cucina era scadente.",F&B,negative
+REV_0193,Stanza trascurata,"Standard igienico bassissimo, asciugamani sporca.",Housekeeping,negative
+REV_0194,Buffet limitato,"Deluso dalla menu, tutto povera e cattiva.",F&B,negative
+REV_0195,Cucina ottima,"ristorante molto buonissima, ampia scelta al buffet.",F&B,positive
+REV_0196,Servizio disorganizzato,"Errori nella pagamento, check-in maleducato e maleducato.",Reception,negative
+REV_0197,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0198,Reception cordiale,"Il reception è stato efficiente, receptionist gestito in modo cordiale.",Reception,positive
+REV_0199,Stanza trascurata,"lenzuola disordinata e pavimento sporca, non accettabile.",Housekeeping,negative
+REV_0200,Disordine ovunque,"La camera era mal tenuta, camera puzzolente e un odore sgradevole.",Housekeeping,negative
+REV_0201,Personale scortese,"reception completamente arrogante, esperienza negativa.",Reception,negative
+REV_0202,Buffet limitato,"La caffè era cattiva, menu povera e poco invitante.",F&B,negative
+REV_0203,Servizio disorganizzato,"check-out incompetente, attesa interminabile per il pagamento.",Reception,negative
+REV_0204,Stanza pulitissima,"igiene pulitissima, camera profumate, tutto perfetto.",Housekeeping,positive
+REV_0205,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0206,Bella struttura ma problemi vari,Camera pulita ma personale poco cortese al check-in,Reception,negative
+REV_0207,Stanza trascurata,"Standard igienico bassissimo, pavimento sporca.",Housekeeping,negative
+REV_0208,Check-in velocissimo,"servizio efficiente, ottima esperienza al momento del reception.",Reception,positive
+REV_0209,Potrebbe migliorare,Colazione buona ma lenzuola macchiate e reception disorganizzata,F&B,negative
+REV_0210,Servizio impeccabile,"receptionist professionale, ottima esperienza al momento del check-in.",Reception,positive
+REV_0211,Pulizia perfetta,"Personale delle pulizie eccellente, camera sempre impeccabile.",Housekeeping,positive
+REV_0212,Pulizia pessima,"asciugamani sporca e lenzuola macchiata, non accettabile.",Housekeeping,negative
+REV_0213,Colazione scarsa,"caffè molto fredda, scelta al colazione scarsa.",F&B,negative
+REV_0214,Check-in lentissimo,"receptionist molto incompetente, problemi con la reception.",Reception,negative
+REV_0215,Buffet ricchissimo,"caffè abbondante, il cucina era abbondante.",F&B,positive
+REV_0216,Ristorante eccellente,"La colazione era buonissima, colazione varia e di qualità.",F&B,positive
+REV_0217,Igiene scarsa,"Standard igienico bassissimo, bagno sporca.",Housekeeping,negative
+REV_0218,Check-in lentissimo,"check-in completamente lento, esperienza negativa.",Reception,negative
+REV_0219,Colazione scarsa,"buffet molto povera, scelta al buffet scadente.",F&B,negative
+REV_0220,Staff professionale,"servizio molto cordiale, hanno risolto ogni problema con cordiale.",Reception,positive
+REV_0221,Personale scortese,"Errori nella personale, prenotazione arrogante e disorganizzato.",Reception,negative
+REV_0222,Check-in lentissimo,"personale molto arrogante, problemi con la prenotazione.",Reception,negative
+REV_0223,Check-in lentissimo,"Il prenotazione è stato maleducato, pagamento gestito malissimo.",Reception,negative
+REV_0224,Camera impeccabile,"Personale delle pulizie eccellente, bagno sempre splendida.",Housekeeping,positive
+REV_0225,Igiene scarsa,"Standard igienico bassissimo, asciugamani sporca.",Housekeeping,negative
+REV_0226,Stanza pulitissima,"Non ho mai visto una lenzuola così splendida, complimenti!",Housekeeping,positive
+REV_0227,Buffet ricchissimo,"caffè varia, il ristorante era fresca.",F&B,positive
+REV_0228,Stanza pulitissima,"ordine splendida, camera profumate, tutto perfetto.",Housekeeping,positive
+REV_0229,Pulizia pessima,"bagno con macchie, asciugamani puzzolente, molto deluso.",Housekeeping,negative
+REV_0230,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0231,Camera impeccabile,"La camera era pulitissima, pulizia impeccabile e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0232,Cucina ottima,"menu ottima, il cucina era fresca.",F&B,positive
+REV_0233,Personale scortese,"pagamento completamente inefficiente, esperienza negativa.",Reception,negative
+REV_0234,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0235,Cibo pessimo,"caffè molto cattiva, scelta al colazione povera.",F&B,negative
+REV_0236,Reception pessima,"check-in incompetente, attesa interminabile per il pagamento.",Reception,negative
+REV_0237,Reception cordiale,"check-out cordiale, procedura di staff molto rapida.",Reception,positive
+REV_0238,Reception pessima,"Il pagamento è stato inefficiente, reception gestito malissimo.",Reception,negative
+REV_0239,Servizio impeccabile,"Complimenti al servizio, sempre professionale e veloce.",Reception,positive
+REV_0240,Cibo delizioso,"La cucina era abbondante, menu varia e di qualità.",F&B,positive
+REV_0241,Check-in lentissimo,"pagamento completamente incompetente, esperienza negativa.",Reception,negative
+REV_0242,Personale scortese,"receptionist molto lento, problemi con la check-out.",Reception,negative
+REV_0243,Servizio impeccabile,"Complimenti al reception, sempre cortese e veloce.",Reception,positive
+REV_0244,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0245,Servizio disorganizzato,"reception inefficiente, attesa interminabile per il reception.",Reception,negative
+REV_0246,Disordine ovunque,"La camera era sporca, pavimento disordinata e un odore sgradevole.",Housekeeping,negative
+REV_0247,Personale eccellente,"check-in molto cordiale, hanno risolto ogni problema con cordiale.",Reception,positive
+REV_0248,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0249,Servizio impeccabile,"Il check-in è stato cortese, servizio gestito in modo professionale.",Reception,positive
+REV_0250,Igiene eccellente,"La camera era pulitissima, camera impeccabile e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0251,Buffet limitato,"cucina molto fredda, scelta al menu pessima.",F&B,negative
+REV_0252,Servizio disorganizzato,"Errori nella prenotazione, personale disorganizzato e inefficiente.",Reception,negative
+REV_0253,Cibo pessimo,"menu di qualità scadente, buffet cattiva.",F&B,negative
+REV_0254,Pulizia pessima,"Standard igienico bassissimo, pavimento macchiata.",Housekeeping,negative
+REV_0255,Servizio impeccabile,"check-in disponibile, ottima esperienza al momento del personale.",Reception,positive
+REV_0256,Reception pessima,"check-in molto incompetente, problemi con la personale.",Reception,negative
+REV_0257,Staff professionale,"receptionist professionale, procedura di receptionist molto rapida.",Reception,positive
+REV_0258,Reception cordiale,"Complimenti al reception, sempre veloce e cortese.",Reception,positive
+REV_0259,Ristorante deludente,"buffet fredda, il caffè era cattiva.",F&B,negative
+REV_0260,Staff professionale,"servizio molto gentile, hanno risolto ogni problema con gentile.",Reception,positive
+REV_0261,Check-in lentissimo,"Errori nella check-out, pagamento inefficiente e maleducato.",Reception,negative
+REV_0262,Camera sporca,"Standard igienico bassissimo, pavimento trascurata.",Housekeeping,negative
+REV_0263,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0264,Personale scortese,"pagamento incompetente, attesa interminabile per il check-out.",Reception,negative
+REV_0265,Ordine e pulizia,"Non ho mai visto una asciugamani così ordinata, complimenti!",Housekeeping,positive
+REV_0266,Pulizia perfetta,"Personale delle pulizie eccellente, igiene sempre impeccabile.",Housekeeping,positive
+REV_0267,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0268,Disordine ovunque,"bagno con macchie, lenzuola trascurata, molto deluso.",Housekeeping,negative
+REV_0269,Ordine e pulizia,"Personale delle pulizie eccellente, lenzuola sempre ordinata.",Housekeeping,positive
+REV_0270,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0271,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0272,Camera impeccabile,"Non ho mai visto una lenzuola così fresca, complimenti!",Housekeeping,positive
+REV_0273,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0274,Buffet ricchissimo,"caffè fresca, il buffet era abbondante.",F&B,positive
+REV_0275,Colazione fantastica,"ristorante abbondante, il buffet era fresca.",F&B,positive
+REV_0276,Ordine e pulizia,"Personale delle pulizie eccellente, camera sempre pulita.",Housekeeping,positive
+REV_0277,Reception cordiale,"staff molto cordiale, hanno risolto ogni problema con cordiale.",Reception,positive
+REV_0278,Servizio impeccabile,"check-out cordiale, ottima esperienza al momento del check-in.",Reception,positive
+REV_0279,Pulizia perfetta,"La camera era profumata, camera profumata e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0280,Buffet limitato,"buffet pessima, il caffè era scadente.",F&B,negative
+REV_0281,Disordine ovunque,"asciugamani con macchie, lenzuola macchiata, molto deluso.",Housekeeping,negative
+REV_0282,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0283,Buffet ricchissimo,"caffè molto deliziosa, ampia scelta al buffet.",F&B,positive
+REV_0284,Igiene scarsa,"asciugamani con macchie, camera disordinata, molto deluso.",Housekeeping,negative
+REV_0285,Buffet ricchissimo,"La caffè era fresca, cibo ottima e di qualità.",F&B,positive
+REV_0286,Pulizia pessima,"La camera era disordinata, asciugamani trascurata e un odore sgradevole.",Housekeeping,negative
+REV_0287,Igiene eccellente,"La camera era splendida, asciugamani profumata e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0288,Igiene scarsa,"tappeto con macchie, camera mal tenuta, molto deluso.",Housekeeping,negative
+REV_0289,Cucina ottima,"menu molto abbondante, ampia scelta al buffet.",F&B,positive
+REV_0290,Stanza trascurata,"pavimento trascurata e lenzuola trascurata, non accettabile.",Housekeeping,negative
+REV_0291,Ristorante deludente,"ristorante di qualità pessima, ristorante povera.",F&B,negative
+REV_0292,Check-in lentissimo,"check-in completamente arrogante, esperienza negativa.",Reception,negative
+REV_0293,Igiene scarsa,"La camera era macchiata, camera mal tenuta e un odore sgradevole.",Housekeeping,negative
+REV_0294,Ristorante deludente,"buffet di qualità cattiva, caffè scarsa.",F&B,negative
+REV_0295,Reception pessima,"prenotazione completamente disorganizzato, esperienza negativa.",Reception,negative
+REV_0296,Potrebbe migliorare,Colazione buona ma lenzuola macchiate e reception disorganizzata,F&B,negative
+REV_0297,Camera impeccabile,"Non ho mai visto una lenzuola così profumata, complimenti!",Housekeeping,positive
+REV_0298,Servizio impeccabile,"Complimenti al reception, sempre cordiale e professionale.",Reception,positive
+REV_0299,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0300,Camera impeccabile,"Non ho mai visto una lenzuola così fresca, complimenti!",Housekeeping,positive
+REV_0301,Cucina ottima,"colazione eccellente, il buffet era abbondante.",F&B,positive
+REV_0302,Cibo pessimo,"cucina fredda, il colazione era limitata.",F&B,negative
+REV_0303,Stanza pulitissima,"igiene fresca, pulizia profumate, tutto perfetto.",Housekeeping,positive
+REV_0304,Colazione fantastica,"menu molto abbondante, ampia scelta al colazione.",F&B,positive
+REV_0305,Check-in lentissimo,"Il personale è stato maleducato, prenotazione gestito malissimo.",Reception,negative
+REV_0306,Reception cordiale,"check-in cordiale, ottima esperienza al momento del receptionist.",Reception,positive
+REV_0307,Reception pessima,"personale molto incompetente, problemi con la pagamento.",Reception,negative
+REV_0308,Staff professionale,"Il staff è stato efficiente, servizio gestito in modo cordiale.",Reception,positive
+REV_0309,Stanza pulitissima,"La camera era impeccabile, bagno pulita e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0310,Personale scortese,"Il check-out è stato incompetente, check-in gestito malissimo.",Reception,negative
+REV_0311,Stanza trascurata,"tappeto sporca e asciugamani sporca, non accettabile.",Housekeeping,negative
+REV_0312,Reception pessima,"pagamento molto lento, problemi con la personale.",Reception,negative
+REV_0313,Stanza trascurata,"La camera era mal tenuta, bagno puzzolente e un odore sgradevole.",Housekeeping,negative
+REV_0314,Reception pessima,"Errori nella reception, personale inefficiente e arrogante.",Reception,negative
+REV_0315,Personale eccellente,"Complimenti al receptionist, sempre cordiale e efficiente.",Reception,positive
+REV_0316,Servizio disorganizzato,"Errori nella check-out, check-in maleducato e arrogante.",Reception,negative
+REV_0317,Cibo delizioso,"ristorante fresca, cucina veramente fresca.",F&B,positive
+REV_0318,Cibo delizioso,"menu deliziosa, il menu era eccellente.",F&B,positive
+REV_0319,Igiene eccellente,"Non ho mai visto una ordine così ordinata, complimenti!",Housekeeping,positive
+REV_0320,Personale scortese,"Errori nella personale, pagamento inefficiente e arrogante.",Reception,negative
+REV_0321,Colazione fantastica,"buffet varia, cucina veramente fresca.",F&B,positive
+REV_0322,Servizio impeccabile,"Complimenti al check-in, sempre cortese e disponibile.",Reception,positive
+REV_0323,Pulizia perfetta,"La camera era splendida, pulizia fresca e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0324,Igiene scarsa,"Standard igienico bassissimo, camera vecchia.",Housekeeping,negative
+REV_0325,Ristorante deludente,"cibo di qualità pessima, ristorante fredda.",F&B,negative
+REV_0326,Cucina ottima,"buffet molto ottima, ampia scelta al cibo.",F&B,positive
+REV_0327,Camera impeccabile,"Non ho mai visto una asciugamani così splendida, complimenti!",Housekeeping,positive
+REV_0328,Colazione scarsa,"cucina molto scarsa, scelta al cibo scarsa.",F&B,negative
+REV_0329,Ristorante deludente,"menu molto cattiva, scelta al cucina fredda.",F&B,negative
+REV_0330,Cibo pessimo,"La buffet era scarsa, caffè cattiva e poco invitante.",F&B,negative
+REV_0331,Cibo delizioso,"cucina fresca, menu veramente abbondante.",F&B,positive
+REV_0332,Cibo pessimo,"La menu era pessima, cucina fredda e poco invitante.",F&B,negative
+REV_0333,Camera impeccabile,"pulizia pulitissima e lenzuola fresca, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0334,Check-in velocissimo,"Complimenti al servizio, sempre professionale e cortese.",Reception,positive
+REV_0335,Reception cordiale,"receptionist professionale, ottima esperienza al momento del servizio.",Reception,positive
+REV_0336,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0337,Staff professionale,"check-out gentile, ottima esperienza al momento del receptionist.",Reception,positive
+REV_0338,Ordine e pulizia,"camera pulita e ordine ordinata, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0339,Ristorante eccellente,"La menu era deliziosa, caffè deliziosa e di qualità.",F&B,positive
+REV_0340,Cibo pessimo,"colazione di qualità povera, caffè cattiva.",F&B,negative
+REV_0341,Ristorante eccellente,"La cibo era abbondante, cucina fresca e di qualità.",F&B,positive
+REV_0342,Cibo pessimo,"Deluso dalla cibo, tutto scadente e cattiva.",F&B,negative
+REV_0343,Stanza pulitissima,"bagno splendida e igiene impeccabile, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0344,Disordine ovunque,"La camera era vecchia, camera macchiata e un odore sgradevole.",Housekeeping,negative
+REV_0345,Staff professionale,"Il reception è stato cortese, reception gestito in modo veloce.",Reception,positive
+REV_0346,Cucina scadente,"caffè pessima, il cucina era limitata.",F&B,negative
+REV_0347,Colazione fantastica,"Complimenti per la ristorante, tutto fresca e eccellente.",F&B,positive
+REV_0348,Reception cordiale,"reception molto cortese, hanno risolto ogni problema con gentile.",Reception,positive
+REV_0349,Buffet ricchissimo,"La buffet era deliziosa, colazione abbondante e di qualità.",F&B,positive
+REV_0350,Camera impeccabile,"pulizia pulitissima e camera fresca, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0351,Disordine ovunque,"tappeto con macchie, asciugamani trascurata, molto deluso.",Housekeeping,negative
+REV_0352,Reception pessima,"Il check-out è stato arrogante, reception gestito malissimo.",Reception,negative
+REV_0353,Colazione scarsa,"cucina scarsa, il ristorante era scadente.",F&B,negative
+REV_0354,Potrebbe migliorare,Colazione buona ma lenzuola macchiate e reception disorganizzata,F&B,negative
+REV_0355,Stanza trascurata,"La camera era sporca, pavimento trascurata e un odore sgradevole.",Housekeeping,negative
+REV_0356,Camera impeccabile,"lenzuola pulitissima, igiene profumate, tutto perfetto.",Housekeeping,positive
+REV_0357,Camera impeccabile,"Personale delle pulizie eccellente, bagno sempre impeccabile.",Housekeeping,positive
+REV_0358,Pulizia pessima,"Standard igienico bassissimo, tappeto sporca.",Housekeeping,negative
+REV_0359,Stanza trascurata,"lenzuola vecchia e lenzuola mal tenuta, non accettabile.",Housekeeping,negative
+REV_0360,Check-in lentissimo,"prenotazione molto maleducato, problemi con la check-out.",Reception,negative
+REV_0361,Cucina scadente,"menu pessima, il buffet era pessima.",F&B,negative
+REV_0362,Colazione fantastica,"La ristorante era fresca, menu ottima e di qualità.",F&B,positive
+REV_0363,Ordine e pulizia,"Personale delle pulizie eccellente, igiene sempre impeccabile.",Housekeeping,positive
+REV_0364,Buffet limitato,"La cucina era limitata, cibo scarsa e poco invitante.",F&B,negative
+REV_0365,Colazione scarsa,"ristorante scarsa, il menu era pessima.",F&B,negative
+REV_0366,Cucina scadente,"colazione limitata, il caffè era limitata.",F&B,negative
+REV_0367,Pulizia perfetta,"Personale delle pulizie eccellente, camera sempre profumata.",Housekeeping,positive
+REV_0368,Ordine e pulizia,"La camera era impeccabile, pulizia ordinata e tutto perfettamente in ordine.",Housekeeping,positive
+REV_0369,Personale eccellente,"personale veloce, procedura di check-out molto rapida.",Reception,positive
+REV_0370,Camera impeccabile,"lenzuola pulitissima, camera profumate, tutto perfetto.",Housekeeping,positive
+REV_0371,Igiene scarsa,"Pulizia inesistente, bagno completamente puzzolente.",Housekeeping,negative
+REV_0372,Ordine e pulizia,"Personale delle pulizie eccellente, pulizia sempre impeccabile.",Housekeeping,positive
+REV_0373,Camera sporca,"Standard igienico bassissimo, asciugamani disordinata.",Housekeeping,negative
+REV_0374,Reception cordiale,"check-in molto efficiente, hanno risolto ogni problema con veloce.",Reception,positive
+REV_0375,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0376,Buffet ricchissimo,"La caffè era buonissima, ristorante eccellente e di qualità.",F&B,positive
+REV_0377,Buon soggiorno nel complesso,"Reception gentile e buffet ricco, solo il bagno un po' datato",Reception,positive
+REV_0378,Camera impeccabile,"Non ho mai visto una ordine così pulitissima, complimenti!",Housekeeping,positive
+REV_0379,Cibo delizioso,"Complimenti per la ristorante, tutto eccellente e ottima.",F&B,positive
+REV_0380,Personale eccellente,"staff molto efficiente, hanno risolto ogni problema con gentile.",Reception,positive
+REV_0381,Stanza pulitissima,"Personale delle pulizie eccellente, camera sempre splendida.",Housekeeping,positive
+REV_0382,Pulizia perfetta,"lenzuola impeccabile e asciugamani profumata, veramente soddisfatto della pulizia.",Housekeeping,positive
+REV_0383,Personale scortese,"check-out completamente maleducato, esperienza negativa.",Reception,negative
+REV_0384,Potrebbe migliorare,Colazione buona ma lenzuola macchiate e reception disorganizzata,F&B,negative
+REV_0385,Check-in lentissimo,"prenotazione completamente arrogante, esperienza negativa.",Reception,negative
+REV_0386,Reception cordiale,"Complimenti al staff, sempre professionale e professionale.",Reception,positive
+REV_0387,Servizio altalenante,"Check-in veloce e camera spaziosa, ma ristorante deludente",Reception,positive
+REV_0388,Personale scortese,"Il check-out è stato inefficiente, reception gestito malissimo.",Reception,negative
+REV_0389,Cibo pessimo,"caffè di qualità pessima, cucina limitata.",F&B,negative
+REV_0390,Check-in velocissimo,"receptionist molto disponibile, hanno risolto ogni problema con gentile.",Reception,positive
+REV_0391,Disordine ovunque,"Pulizia inesistente, camera completamente mal tenuta.",Housekeeping,negative
+REV_0392,Camera sporca,"Pulizia inesistente, bagno completamente puzzolente.",Housekeeping,negative
+REV_0393,Buffet ricchissimo,"caffè molto abbondante, ampia scelta al menu.",F&B,positive
+REV_0394,Camera impeccabile,"Non ho mai visto una camera così fresca, complimenti!",Housekeeping,positive
+REV_0395,Camera sporca,"Standard igienico bassissimo, asciugamani trascurata.",Housekeeping,negative
+REV_0396,Reception cordiale,"Il reception è stato professionale, personale gestito in modo cortese.",Reception,positive
+REV_0397,Cucina ottima,"buffet fresca, buffet veramente deliziosa.",F&B,positive
+REV_0398,Disordine ovunque,"Pulizia inesistente, tappeto completamente trascurata.",Housekeeping,negative
+REV_0399,"Pulizia ok, resto no",Stanza pulita ma colazione scarsa e personale freddo,Housekeeping,negative
+REV_0400,Reception pessima,"check-in completamente arrogante, esperienza negativa.",Reception,negative
