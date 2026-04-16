@@ -1,208 +1,108 @@
-# Hotel Review Classifier
+# Project Pegaso: Hotel Review Classifier
 
-Sistema di Machine Learning per lo smistamento automatico delle recensioni di strutture ricettive verso i reparti appropriati (Housekeeping, Reception, F&B) con analisi del sentiment.
+Il presente documento illustra l'architettura tecnica del progetto e le istruzioni operative per l'inizializzazione del software.
 
-## Descrizione
+## Descrizione del Progetto
 
-Questo progetto implementa una soluzione completa per:
-- **Classificazione Automatica**: Assegnazione recensioni ai reparti competenti
-- **Analisi Sentiment**: Identificazione recensioni positive/negative  
-- **Dashboard Interattiva**: Interfaccia web per predizioni in tempo reale
-- **Batch Processing**: Elaborazione massive di recensioni da file CSV
+Il progetto implementa un sistema di Machine Learning per lo smistamento automatico delle recensioni di strutture ricettive verso i reparti di pertinenza (es. Housekeeping, Reception, Ristorazione) e per l'analisi del relativo sentiment (positivo o negativo). 
 
-## Quick Start
+Sviluppato come Project Work per il corso di Laurea L-31, ha l'obiettivo di dimostrare l'applicazione di algoritmi di intelligenza artificiale per l'ottimizzazione di processi aziendali, permettendo la gestione su larga scala di feedback.
 
-### 1. Installazione Dipendenze
+## Istruzioni di Avvio (Quick Start)
+
+I seguenti passaggi illustrano le procedure per clonare ed eseguire correttamente gli script di formazione e validazione.
+
+### 1. Configurazione dell'Ambiente
+
+Per garantire l'isolamento delle librerie necessarie ed evitare conflitti, si richiede la creazione di un ambiente virtuale (Virtual Environment).
 
 ```bash
-# Crea ambiente virtuale
+# Creazione dell'ambiente virtuale
 python3 -m venv venv
+
+# Attivazione dell'ambiente virtuale
 source venv/bin/activate
 
-# Installa dipendenze
+# Installazione dei pacchetti richiesti
 pip install -r requirements.txt
 ```
 
-### 2. Genera Dataset Sintetico
+### 2. Generazione del Dataset Sintetico
+
+Essendo un progetto didattico, il sistema non comprende o distribuisce banche dati reali. È stato invece sviluppato un generatore in grado di produrre file CSV di recensioni realistiche (classi bilanciate) su cui eseguire attività di training.
 
 ```bash
 python src/data_generator.py
 ```
+Lo script produrrà il file `reviews.csv` nella directory `/data/generated/` per un totale di circa 400 record sintetizzati.
 
-Output: `data/generated/reviews.csv` con 400 recensioni sintetiche
+### 3. Addestramento dei Modelli
 
-### 3. Addestra Modelli ML
+La fase di addestramento è centralizzata all'interno della pipeline. Questa operazione pre-processerà i testi e serializzerà i modelli per un utilizzo ripetuto.
 
 ```bash
 cd src
 python pipeline.py
 ```
+Nello specifico, questo comando:
+- Pulisce e processa i testi estratti dal dataset iniziale.
+- Esegue il fit della *Logistic Regression* per la classificazione del reparto.
+- Esegue il fit della *Logistic Regression* binaria per l'identificazione del sentiment.
+- Memorizza persistendo i rispettivi algoritmi e vectorizers nella cartella `/models/`.
 
-Questo comando:
-- Preprocessa i testi
-- Addestra classificatore reparto e ​​analizzatore sentiment
-- Genera metriche e visualizzazioni
-- Salva modelli in `models/`
+### 4. Esecuzione dell'Interfaccia Grafica (Dashboard)
 
-### 4. Lancia Dashboard
+Il progetto dispone di una applicazione basata sul framework Streamlit, utile per l'interazione pratica e il collaudo da parte dell'utente.
 
 ```bash
 cd ..
 streamlit run app.py
 ```
+L'infrastruttura web sarà avviata all'indirizzo locale `http://localhost:8501`. L'applicazione supporta formalmente due funzionalità di utilizzo:
+- **Predizione Singola:** utile per collaudare i test inserendo specifici pattern di frasi libere, fornendo score di probabilità delle misurazioni.
+- **Predizione Batch:** orientato ad un caricamento in blocco di recensioni estrapolate sotto forma di un unico file CSV, automatizzandone l'intera classificazione logica.
 
-La dashboard sarà disponibile su `http://localhost:8501`
+## Struttura della Repository
 
-## Struttura Progetto
+Per facilitare la navigazione della logica dell'applicativo e separare coerentemente script e output analitici, l'architettura è stata strutturata come segue:
 
-```
+```text
 project_pegaso/
-├── README.md                           # Questo file
-├── requirements.txt                    # Dipendenze Python
-├── app.py                             # Dashboard Streamlit
+├── README.md                           # Documentazione corrente
+├── requirements.txt                    # Elenco delle specifiche richieste da Python
+├── app.py                              # Entrypoint della GUI Streamlit
 ├── data/
-│   ├── generated/
-│   │   └── reviews.csv                # Dataset sintetico
-│   └── predictions/                   # Risultati batch
-├── src/
-│   ├── data_generator.py              # Generatore dataset
-│   ├── preprocessor.py                # Preprocessing testi
-│   ├── department_classifier.py       # Classificatore reparto
-│   ├── sentiment_analyzer.py          # Analizzatore sentiment
-│   ├── pipeline.py                    # Pipeline training
-│   └── evaluation.py                  # Valutazione e grafici
-├── models/
-│   ├── department_model.pkl           # Modello reparto
-│   ├── sentiment_model.pkl            # Modello sentiment
-│   ├── vectorizer_dept.pkl            # TF-IDF vectorizer reparto
-│   └── vectorizer_sent.pkl            # TF-IDF vectorizer sentiment
-├── outputs/
-│   ├── confusion_matrix_department.png
-│   ├── confusion_matrix_sentiment.png
-│   └── performance_by_class_department.png
-└── docs/
-    ├── REPORT.md                      # Report tecnico
-    ├── specifics.docx                 # Specifica progetto
-    └── project_esempio.pdf            # Esempio riferimento
+│   ├── generated/                      # Locazione temporanea di testset non tracciato
+│   └── predictions/                    # Output CSV delle elaborazioni utente
+├── src/                                # Sorgente ML
+│   ├── data_generator.py               # Generatore randomizzato a seed fisso
+│   ├── preprocessor.py                 # Funzioni base per la sanitizzazione in stringhe valide
+│   ├── department_classifier.py        # Classe per identificazione modulo alberghiero 
+│   ├── sentiment_analyzer.py           # Classe valutatore del peso emozionale del testo
+│   ├── pipeline.py                     # Aggregatore delle fasi precedenti per il training
+│   └── evaluation.py                   # Modulo per l'output grafico su base percentuale
+├── models/                             # Destinazione finale dei file *.pkl esportati da JobLib
+├── outputs/                            # Immagini autogenerate dalla valutazione statistica
+└── docs/                               # File accademici supplementari per la progettazione
 ```
-
-## Utilizzo Dashboard
-
-### Modalità Predizione Singola
-
-1. Inserisci titolo e testo della recensione
-2. Clicca "Analizza Recensione"
-3. Visualizza:
-   - Reparto consigliato con confidenza
-   - Sentiment (positivo/negativo) con probabilità
-   - Distribuzione probabilità per tutte le classi
-
-### Modalità Batch Processing
-
-1. Prepara file CSV con colonne `title` e `body`
-2. Carica il file tramite l'interfaccia
-3. Clicca "Esegui Predizioni"
-4. Scarica risultati con timestamp
-
-Esempio formato CSV:
-```csv
-title,body
-Camera pulita,La stanza era impeccabile e profumata
-Check-in lento,Attesa troppo lunga alla reception
-Colazione scarsa,Buffet limitato e cibo freddo
-```
-
-## Tecnologie Utilizzate
-
-- **Python 3.8+**: Linguaggio principale
-- **Scikit-learn**: Modelli ML (Logistic Regression, TF-IDF)
-- **Pandas/NumPy**: Manipolazione dati
-- **Matplotlib/Seaborn**: Visualizzazioni
-- **Streamlit**: Dashboard interattiva
-- **Joblib**: Serializzazione modelli
-
-## Performance Modelli
-
-| Modello | Accuracy | F1 Score |
-|---------|----------|----------|
-| Department Classifier | 100% | 1.000 |
-| Sentiment Analyzer | 100% | 1.000 |
-
-*Valutati su test set (80/20 split)*
 
 ## Dettagli Tecnici
 
-### Preprocessing
-- Lowercasing
-- Rimozione punteggiatura
-- TF-IDF vectorization (bi-grammi, max 500 features)
-- Combinazione titolo + corpo (peso maggiore al titolo)
+Il motore sfrutta tecniche classiche di Machine Learning e NLP:
+- Il Text Pre-Processing applica lower-casing progressivo e conversione matematica tramite il metodo statisticamente fondato su `TF-IDF` e computando metriche anche nell'ordine di vari unigrammi/bi-grammi (max 500 features).
+- Le procedure classificazione in questione (sia quella a 3 esiti che quella a 2 esiti) convergono tramite `Logistic Regression`. Il coefficiente per la regolarizzazione previene fenomeni estremi di overfitting.
+- Relativamente alle metriche di accuratezza finali registrate sui set sintetici, risulta fisiologica una precisione massima. Con varianze e dati testuali meno definiti, le stesse procedure scalerebbero su stime maggiormente vicine all'85-90%. 
 
-### Modelli
-- **Reparto**: Logistic Regression multi-classe
-- **Sentiment**: Logistic Regression binaria
-- Regolarizzazione L2 (C=1.0)
-- Random state fisso (42) per riproducibilità
+## Risoluzione Problemi e Troubleshooting
 
-### Dataset
-- 400 recensioni sintetiche
-- Distribuzione bilanciata:
-  - Reparti: ~33% ciascuno
-  - Sentiment: ~50% positivo, 50% negativo
-- 10% recensioni ambigue per robustezza
+Nel caso si riscontrino errori in fase di debug e compilazione, le indicazioni generali in successione sono le seguenti:
 
-## Comandi Utili
+- **Eccezione su moduli non rilevati (ModuleNotFoundError):** Assicurarsi che l'ambiente virtuale sia realmente richiamato al promp del sistema operativo (`source venv/bin/activate`) ed eseguire una nuova installazione di requirements.txt.
+- **Errore per i file `*.pkl` assenti della cartella models:** Procedere dall'interno della cartella `src/` alla ricostruzione del training data richiamando l'apposito comando `python pipeline.py`. Al termine dell'output della pipeline, accertatevi che la cartella models in root del progetto si sia popolata in maniera non-vuota.
+- **Eccezioni Streamlit (Porta 8501 già in uso):** Qualora le porte di ascolto siano impegnate da un demone non interrotto correttamente passate un differente parametro in fase di runtime: `streamlit run app.py --server.port 8502`.
 
-```bash
-# Test singoli moduli
-python src/preprocessor.py
-python src/department_classifier.py
-python src/sentiment_analyzer.py
-
-# Rigenera dataset (nuovo seed)
-python src/data_generator.py
-
-# Visualizza prime righe dataset
-head -20 data/generated/reviews.csv
-
-# Check modelli salvati
-ls -lh models/
-```
-
-## Note
-
-- **Dati Sintetici**: Il dataset è completamente artificiale, nessun dato personale
-- **Riproducibilità**: Seed fisso garantisce risultati consistenti
-- **Estensibilità**: Architettura modulare facilita aggiunta nuovi modelli
-- **Lingua**: Recensioni in italiano, ottimizzato per il contesto hospitality
-
-## Troubleshooting
-
-**Problema**: ModuleNotFoundError
-```bash
-# Soluzione: Verifica ambiente virtuale attivo
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-**Problema**: Modelli non trovati nella dashboard
-```bash
-# Soluzione: Addestra prima i modelli
-cd src && python pipeline.py
-```
-
-**Problema**: Port già in uso (Streamlit)
-```bash
-# Soluzione: Usa port diverso
-streamlit run app.py --server.port 8502
-```
-
-## Autori
-Creatore: Oleksandr Chumak
-Project Work - Corso di Laurea L-31  
-Tema: Machine Learning per Processi Aziendali  
-Anno: 2026
-
-## Licenza
-
-Progetto didattico - Tutti i diritti riservatigit 
+## Autore
+- **Oleksandr Chumak**
+- Project Work - Corso di Laurea L-31 
+- Tema: Machine Learning per Processi Aziendali
+- Anno: 2026
